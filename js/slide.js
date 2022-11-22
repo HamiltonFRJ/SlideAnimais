@@ -148,7 +148,6 @@ export class Slide {
     this.changeSlide(0);
     this.activePrevSlide();
     this.addResizeEvent();
-    this.addControl();
     return this;
   }
 }
